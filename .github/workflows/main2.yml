@@ -23,7 +23,7 @@ jobs:
     - name: Build with Gradle
       run: |
         chmod +x ./gradlew
-        ./gradlew bootjar
+        ./gradlew build
     - name: Set SSH key permissions
       run: |
         mkdir -p ~/.ssh
